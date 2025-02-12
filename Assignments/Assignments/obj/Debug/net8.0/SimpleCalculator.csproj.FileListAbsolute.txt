@@ -1,0 +1,14 @@
+C:\c_camp\Assignments\Assignments\bin\Debug\net8.0\SimpleCalculator.exe
+C:\c_camp\Assignments\Assignments\bin\Debug\net8.0\SimpleCalculator.deps.json
+C:\c_camp\Assignments\Assignments\bin\Debug\net8.0\SimpleCalculator.runtimeconfig.json
+C:\c_camp\Assignments\Assignments\bin\Debug\net8.0\SimpleCalculator.dll
+C:\c_camp\Assignments\Assignments\bin\Debug\net8.0\SimpleCalculator.pdb
+C:\c_camp\Assignments\Assignments\obj\Debug\net8.0\SimpleCalculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\c_camp\Assignments\Assignments\obj\Debug\net8.0\SimpleCalculator.AssemblyInfoInputs.cache
+C:\c_camp\Assignments\Assignments\obj\Debug\net8.0\SimpleCalculator.AssemblyInfo.cs
+C:\c_camp\Assignments\Assignments\obj\Debug\net8.0\SimpleCalculator.csproj.CoreCompileInputs.cache
+C:\c_camp\Assignments\Assignments\obj\Debug\net8.0\SimpleCalculator.dll
+C:\c_camp\Assignments\Assignments\obj\Debug\net8.0\refint\SimpleCalculator.dll
+C:\c_camp\Assignments\Assignments\obj\Debug\net8.0\SimpleCalculator.pdb
+C:\c_camp\Assignments\Assignments\obj\Debug\net8.0\SimpleCalculator.genruntimeconfig.cache
+C:\c_camp\Assignments\Assignments\obj\Debug\net8.0\ref\SimpleCalculator.dll
