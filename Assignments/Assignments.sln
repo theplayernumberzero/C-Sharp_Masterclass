@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35806.99 d17.13
+VisualStudioVersion = 17.13.35806.99
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCalculator", "Assignments\SimpleCalculator.csproj", "{D2E74707-01E7-4D86-B1D6-BD58616CE968}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lists_GetOnlyUpperCaseWords", "Lists_GetOnlyUpperCaseWords\Lists_GetOnlyUpperCaseWords.csproj", "{6CE1DD0D-FCD9-4926-8200-CF8A20E2F54C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{D2E74707-01E7-4D86-B1D6-BD58616CE968}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2E74707-01E7-4D86-B1D6-BD58616CE968}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2E74707-01E7-4D86-B1D6-BD58616CE968}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CE1DD0D-FCD9-4926-8200-CF8A20E2F54C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CE1DD0D-FCD9-4926-8200-CF8A20E2F54C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CE1DD0D-FCD9-4926-8200-CF8A20E2F54C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CE1DD0D-FCD9-4926-8200-CF8A20E2F54C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

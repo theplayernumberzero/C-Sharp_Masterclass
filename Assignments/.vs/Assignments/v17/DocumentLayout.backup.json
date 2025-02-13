@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\c_camp\\Assignments\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D2E74707-01E7-4D86-B1D6-BD58616CE968}|Assignments\\Assignments.csproj|c:\\c_camp\\assignments\\assignments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D2E74707-01E7-4D86-B1D6-BD58616CE968}|Assignments\\Assignments.csproj|solutionrelative:assignments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{6CE1DD0D-FCD9-4926-8200-CF8A20E2F54C}|Lists_GetOnlyUpperCaseWords\\Lists_GetOnlyUpperCaseWords.csproj|c:\\c_camp\\assignments\\lists_getonlyuppercasewords\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6CE1DD0D-FCD9-4926-8200-CF8A20E2F54C}|Lists_GetOnlyUpperCaseWords\\Lists_GetOnlyUpperCaseWords.csproj|solutionrelative:lists_getonlyuppercasewords\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D2E74707-01E7-4D86-B1D6-BD58616CE968}|Assignments\\SimpleCalculator.csproj|c:\\c_camp\\assignments\\assignments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D2E74707-01E7-4D86-B1D6-BD58616CE968}|Assignments\\SimpleCalculator.csproj|solutionrelative:assignments\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,11 +24,24 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
+              "DocumentMoniker": "C:\\c_camp\\Assignments\\Lists_GetOnlyUpperCaseWords\\Program.cs",
+              "RelativeDocumentMoniker": "Lists_GetOnlyUpperCaseWords\\Program.cs",
+              "ToolTip": "C:\\c_camp\\Assignments\\Lists_GetOnlyUpperCaseWords\\Program.cs*",
+              "RelativeToolTip": "Lists_GetOnlyUpperCaseWords\\Program.cs*",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAIwB8AAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T12:18:03.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
               "DocumentMoniker": "C:\\c_camp\\Assignments\\Assignments\\Program.cs",
               "RelativeDocumentMoniker": "Assignments\\Program.cs",
               "ToolTip": "C:\\c_camp\\Assignments\\Assignments\\Program.cs",
               "RelativeToolTip": "Assignments\\Program.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAwDkAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwDkAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T18:29:03.407Z",
               "EditorCaption": ""
