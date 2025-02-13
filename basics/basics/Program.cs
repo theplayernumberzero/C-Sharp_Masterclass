@@ -109,6 +109,142 @@ switch (number3)
         break;
 }
 
+//Strings are collection of characters(char)
+char charExample = 'a';
+
+//Check if all characters are digit in a string
+Console.WriteLine("Enter a number a number for check all chars are digit: ");
+var userInput4 = Console.ReadLine();
+
+bool isParsableToInt = userInput4.All(char.IsDigit);    //All() method checks if all characters are digit
+
+//The array is most basic collection type in C#, storing multiple elements of the same type
+//Arrays are fixed size. Size cant be change
+
+//for integer array default value is 0
+int[] numbers = new int[10];    //new keyword create instance from Array class
+
+var firstElement = numbers[0];
+var lastElement = numbers[numbers.Length - 1];    //Length is a property of array
+
+var firstElement2 = numbers[^1];    //^1 is the last element of array (sondan birinci)
+
+int[] numbers2 = new int[3] { 1, 2, 3 };    //Array initialization
+var numbers3 = new [] { 1, 2, 3 };    //Array initialization (needs to be same type)
+
+//Disadvantage of array is fixed size. It means we cant add or remove element from array
+
+//Two dimensional array
+int[,] array2 = new int[2, 3];    //2 rows and 3 columns
+
+array2[0, 0] = 1;
+array2[0, 1] = 2;       // 1 2 3
+array2[0, 2] = 3;       // 4 5 6
+array2[1, 0] = 4;
+array2[1, 1] = 5;
+array2[1, 2] = 6;
+
+var array3 = new int[,] { { 1, 2, 3 }, { 4, 5, 6 } };
+
+var height = array3.GetLength(0);    //GetLength method returns the size of the specified dimension
+var width = array3.GetLength(1);
+Console.WriteLine("Height is: " + height);
+Console.WriteLine("Width is: " + width);
+
+for(int i = 0; i < height; i++)
+{
+    for (int j = 0; j < width; j++)
+    {
+        Console.Write(array3[i, j] + " ");
+    }
+    Console.WriteLine();
+}
+
+//For each loops
+var words = new string[] {"hello", "welcome", "good bye" };
+
+foreach (string word in words)
+{
+    Console.WriteLine(word);
+}
+
+//List
+//Size of a list can be change
+
+List<int> listNumbers = new List<int>();    //<> are generic type
+Console.WriteLine("Count of listNumbers elemnts is: " + listNumbers.Count); //listNumbers.Count is the number of elements in the list
+
+listNumbers.Add(5); //Add() method adds element to the end of the list
+
+var listWords = new List<string> {"one", "two", "three" }; //List initialization
+
+listWords.Remove("three");    //Remove() method removes the first occurence of the specified value
+
+listWords.RemoveAt(0);    //RemoveAt() method removes the element at the specified index
+
+var moreWords = new List<string> { "four", "five" };
+
+listWords.AddRange(moreWords);    //AddRange() method adds the elements of the specified collection to the end of the list
+listWords.AddRange(new string[] { "six", "seven" }); //AddRange() method can also be used with array
+
+Console.WriteLine("Index of element 'six' is: " + listWords.IndexOf("six"));    //IndexOf() method returns the index of the first occurence of the specified value. If element is not in the list, it returns -1
+
+Console.WriteLine("Is collection contains 'one': " + listWords.Contains("one"));    //Contains() method returns true if the specified value is in the list
+listWords.Clear();    //Clear() method removes all elements from the list   
+
+foreach (string word in listWords)
+{
+    Console.WriteLine(word);
+}
+
+for (int i = 0; i < listNumbers.Count; i++)
+{
+    Console.WriteLine(listWords[i]);
+}
+
+int nonPositiveCount;   //It will be assigned in the function with "out" keyword
+List<int> GetOnlyPositiveNumbers(int[] numbers, out int countOfPositiveNumber)
+{
+    countOfPositiveNumber = 0;
+    List<int> positiveNumbers = new List<int>();
+    foreach (int number in numbers)
+    {
+        if (number > 0)
+        {
+            positiveNumbers.Add(number);
+        }
+        else
+        {
+            countOfPositiveNumber++;
+        }
+    }
+    return positiveNumbers;
+}
+
+var onlyPositiveNumbers = GetOnlyPositiveNumbers(new int[] { -5, 10, -3, 20, 0 }, out nonPositiveCount);
+foreach (int number5 in onlyPositiveNumbers)
+{
+    Console.WriteLine(number5);
+}
+
+//"out" keyword: It is used to pass arguments to a method by reference, not by value
+//out keyword is used when you want a method to return more than one value (bypass the limitation)
+//out keyword is used when you want to return a value from a method without using a return statement
+
+//tryParse() method is used to convert string to int without throwing exception
+Console.WriteLine("Enter a number: ");
+var userInput6 = Console.ReadLine();
+
+bool isParsingSuccess = int.TryParse(userInput6, out int number6);    //TryParse() method returns true if the conversion is successful, otherwise false. If userinput6 is false, number6 will be 0 by default.
+
+if (isParsingSuccess)
+{
+    Console.WriteLine("Number is: " + number6);
+}
+else
+{
+    Console.WriteLine("Please enter a valid number");
+}
 
 //En sona işlemleri bitirip uygulamayı kapatmak için ReadKey koyuyorum
 Console.WriteLine("Press any key to exit...");

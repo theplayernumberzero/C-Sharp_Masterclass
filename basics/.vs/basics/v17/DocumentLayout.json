@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "C:\\c_camp\\basics\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\c_camp\\basics\\basics\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:basics\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{184B72D3-515B-4F68-B557-E4954DB54CFF}|basics\\basics.csproj|c:\\c_camp\\basics\\basics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{184B72D3-515B-4F68-B557-E4954DB54CFF}|basics\\basics.csproj|solutionrelative:basics\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +24,7 @@
               "RelativeDocumentMoniker": "basics\\Program.cs",
               "ToolTip": "C:\\c_camp\\basics\\basics\\Program.cs",
               "RelativeToolTip": "basics\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAN0AAAAAAAAAAAAiwOYAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T12:39:53.399Z",
               "EditorCaption": ""
