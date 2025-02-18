@@ -1,4 +1,4 @@
-﻿class Dice
+﻿public class Dice
 {
     private readonly Random _random;
     private const int _sides = 6;

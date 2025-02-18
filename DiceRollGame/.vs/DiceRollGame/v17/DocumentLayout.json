@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\c_camp\\DiceRollGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F72CFCD-ADCA-42AF-8C4E-209E363310B4}|DiceRollGame\\DiceRollGame.csproj|c:\\c_camp\\dicerollgame\\dicerollgame\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F72CFCD-ADCA-42AF-8C4E-209E363310B4}|DiceRollGame\\DiceRollGame.csproj|solutionrelative:dicerollgame\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9F72CFCD-ADCA-42AF-8C4E-209E363310B4}|DiceRollGame\\DiceRollGame.csproj|c:\\c_camp\\dicerollgame\\dicerollgame\\guessinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72CFCD-ADCA-42AF-8C4E-209E363310B4}|DiceRollGame\\DiceRollGame.csproj|solutionrelative:dicerollgame\\guessinggame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F72CFCD-ADCA-42AF-8C4E-209E363310B4}|DiceRollGame\\DiceRollGame.csproj|c:\\c_camp\\dicerollgame\\dicerollgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F72CFCD-ADCA-42AF-8C4E-209E363310B4}|DiceRollGame\\DiceRollGame.csproj|solutionrelative:dicerollgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72CFCD-ADCA-42AF-8C4E-209E363310B4}|DiceRollGame\\DiceRollGame.csproj|c:\\c_camp\\dicerollgame\\dicerollgame\\consolereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72CFCD-ADCA-42AF-8C4E-209E363310B4}|DiceRollGame\\DiceRollGame.csproj|solutionrelative:dicerollgame\\consolereader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F72CFCD-ADCA-42AF-8C4E-209E363310B4}|DiceRollGame\\DiceRollGame.csproj|c:\\c_camp\\dicerollgame\\dicerollgame\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F72CFCD-ADCA-42AF-8C4E-209E363310B4}|DiceRollGame\\DiceRollGame.csproj|solutionrelative:dicerollgame\\dice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Dice.cs",
-              "DocumentMoniker": "C:\\c_camp\\DiceRollGame\\DiceRollGame\\Dice.cs",
-              "RelativeDocumentMoniker": "DiceRollGame\\Dice.cs",
-              "ToolTip": "C:\\c_camp\\DiceRollGame\\DiceRollGame\\Dice.cs",
-              "RelativeToolTip": "DiceRollGame\\Dice.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-16T20:11:53.779Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -41,10 +36,48 @@
               "RelativeDocumentMoniker": "DiceRollGame\\Program.cs",
               "ToolTip": "C:\\c_camp\\DiceRollGame\\DiceRollGame\\Program.cs",
               "RelativeToolTip": "DiceRollGame\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-16T19:05:44.75Z",
+              "IsPinned": true,
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsoleReader.cs",
+              "DocumentMoniker": "C:\\c_camp\\DiceRollGame\\DiceRollGame\\ConsoleReader.cs",
+              "RelativeDocumentMoniker": "DiceRollGame\\ConsoleReader.cs",
+              "ToolTip": "C:\\c_camp\\DiceRollGame\\DiceRollGame\\ConsoleReader.cs",
+              "RelativeToolTip": "DiceRollGame\\ConsoleReader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T21:07:23.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GuessingGame.cs",
+              "DocumentMoniker": "C:\\c_camp\\DiceRollGame\\DiceRollGame\\GuessingGame.cs",
+              "RelativeDocumentMoniker": "DiceRollGame\\GuessingGame.cs",
+              "ToolTip": "C:\\c_camp\\DiceRollGame\\DiceRollGame\\GuessingGame.cs",
+              "RelativeToolTip": "DiceRollGame\\GuessingGame.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAUwCIAAABVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:57:21.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Dice.cs",
+              "DocumentMoniker": "C:\\c_camp\\DiceRollGame\\DiceRollGame\\Dice.cs",
+              "RelativeDocumentMoniker": "DiceRollGame\\Dice.cs",
+              "ToolTip": "C:\\c_camp\\DiceRollGame\\DiceRollGame\\Dice.cs",
+              "RelativeToolTip": "DiceRollGame\\Dice.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T20:11:53.779Z"
             }
           ]
         }
